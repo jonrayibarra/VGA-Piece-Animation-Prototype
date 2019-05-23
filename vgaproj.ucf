@@ -1,0 +1,20 @@
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+NET "switch[1]" IOSTANDARD = LVCMOS33;
+NET "switch[0]" IOSTANDARD = LVCMOS33;
+NET "hsync" IOSTANDARD = LVCMOS33;
+NET "vsync" IOSTANDARD = LVCMOS33;
+NET "rgb[2]" IOSTANDARD = LVCMOS33;
+NET "rgb[1]" IOSTANDARD = LVCMOS33;
+NET "rgb[0]" IOSTANDARD = LVCMOS33;
+
+NET "clk" LOC = V10;
+NET "reset" LOC = C9;
+NET "switch[2]" LOC = V10;
+NET "switch[1]" LOC = T9;
+NET "switch[0]" LOC = T10;
+NET "hsync" LOC = N6;
+NET "vsync" LOC = P7;
+NET "rgb[2]" LOC = R7;
+NET "rgb[1]" LOC = P8;
+NET "rgb[0]" LOC = U7;
